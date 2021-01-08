@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  keycloak: 
+    image: quay.io/keycloak/keycloak:12.0.1
+    restart: always
+    environment: 
+      KEYCLOAK_USER: "nimdadod"
+      KEYCLOAK_PASSWORD: "secret"
+    ports: 
+      - "9999:8080"
+
