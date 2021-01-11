@@ -20,7 +20,7 @@ public class WebController {
     }
 
     @GetMapping(path = "/customers")
-    public String customers(Principal principal, Model model) {
+    public String customers(Principal principal) {
         return "customers";
     }
 }
