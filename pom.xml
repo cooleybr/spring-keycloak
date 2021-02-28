@@ -11,10 +11,10 @@
   </parent>
 
 
-    <groupId>scate.auth</groupId>
-    <artifactId>scate.auth</artifactId>
+    <groupId>auth</groupId>
+    <artifactId>auth</artifactId>
     <version>0.0.1</version>
-    <name>scate.auth</name>
+    <name>auth</name>
     <packaging>jar</packaging>
     <description>Keycloak and Spring Boot.</description>
 

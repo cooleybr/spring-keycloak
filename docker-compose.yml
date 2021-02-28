@@ -6,13 +6,12 @@ services:
     container_name: keycloak
     restart: always
     environment: 
-      KEYCLOAK_USER: "nimdadod"
-      KEYCLOAK_PASSWORD: "secret"
+      KEYCLOAK_USER: "admin"
+      KEYCLOAK_PASSWORD: "admin"
     ports: 
       - "8080:8080"
   webby: 
-    build: app/.
+    build: ./
     container_name: webby
     ports: 
       - "8081:8081"
-    
